@@ -1,0 +1,7 @@
+##f = open("examinfo.txt", 'r')
+filename = input('Enter the file name: ')
+f = open(filename, 'r')
+text = f.read()
+print(text.upper())
+print('The number of characters in the file is', len(text))
+print('The number of the words in the file is', len(text.split()))
